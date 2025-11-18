@@ -1,0 +1,69 @@
+<!DOCTYPE html><html>
+<head>
+<style>
+  body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 130px;
+  }
+  h1 { color: rgb(2, 112, 112); }
+  .calc {
+    width: 250px;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  .display {
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  button {
+    height: 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+  }
+  .op { background: black; color: white; }
+  .clear { background: red; color: white; }
+</style>
+</head>
+<body>
+  <div class="outer" style="width:100%; display:flex; justify-content:center; margin-top:40px;">
+    <div>
+      <h1>Masai Calculator</h1><div class="calc">
+    <div class="display"></div>
+
+    <div class="keys">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button class="op">+</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="op">-</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="op">x</button>
+
+      <button class="clear">C</button>
+      <button>0</button>
+      <button class="op">=</button>
+      <button class="op">/</button>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Weekly Schedule</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #ffffff;
+    }.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1c2d50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.stars {
+    color: #ffdd57;
+    font-size: 28px;
+}
+
+.schedule-grid {
+    width: 90%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 120px repeat(5, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+.time-cell {
+    background: #b8f4ff;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.day-header {
+    background: #ffccf2;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.subject {
+    background: #ffe6ff;
+    padding: 14px;
+    border-radius: 10px;
+    min-height: 5px;
+}
+
+.subject.yellow {
+    background: rgb(236, 236, 163);
+}
+
+.note-box {
+    margin-top: 20px;
+    background: #b8f4ff;
+    width: 90%;
+    max-width: 900px;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.schedule-grid .time-cell:first-child{
+    visibility: hidden;
+}
+   
+
+
+</style>
+</head>
+<body><div class="container">
+    <h1> Weekly Schedule</h1><div class="schedule-grid">
+    <div class="time-cell"></div>
+    <div class="day-header">Monday</div>
+    <div class="day-header">Tuesday</div>
+    <div class="day-header">Wednesday</div>
+    <div class="day-header">Thursday</div>
+    <div class="day-header">Friday</div>
+
+    <div class="time-cell">08:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">09:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">10:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">11:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">12:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">13:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">14:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">15:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+
+    <div class="time-cell">16:00</div>
+    <div class="subject"></div><div class="subject yellow"></div><div class="subject"></div><div class="subject yellow"></div><div class="subject"></div>
+</div>
+
+<div class="note-box">Note:</div>
+
+</div></body>
+</html>
